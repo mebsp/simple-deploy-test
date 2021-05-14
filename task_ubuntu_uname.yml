@@ -6,7 +6,7 @@ image_resource:
   source: {repository: ubuntu}
   
 inputs:
-  - name: scripts_folder
+  - name: git-resource
 run:
   path: /bin/sh
   args: ["git-resource/task_show_uname.sh"]
