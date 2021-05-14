@@ -9,4 +9,4 @@ inputs:
   - name: scripts_folder
 run:
   path: /bin/sh
-  args: ["scripts_folder/task_show_uname.sh"]
+  args: ["./scripts_folder/task_show_uname.sh"]
