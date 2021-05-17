@@ -1,6 +1,5 @@
 #!/bin/sh
 
-cd git-resource
 ls -lah > listing.txt
 echo >> listing.txt;
 date >> listing.txt;
