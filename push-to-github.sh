@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd outfolder
 ls -lah > listing.txt
 echo >> listing.txt;
 date >> listing.txt;
